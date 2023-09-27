@@ -3,7 +3,7 @@
 #grid{
 	display : grid;
 	grid-template-columns : repeat(4,190px);
-	grid-template-rows : repeat(5,85px);
+	grid-template-rows : repeat(5,124px);
 	padding : 10px  ;
 	gap : 5px;
 }
@@ -14,27 +14,18 @@
 	font-size : 30px;
 }
 #a1{
-	grid-column-start : 1;
+	grid-column : 1 / span 4;
 	grid-column-end : 5;
 }
 #a2 {
-	grid-row-start : 2;
-	grid-row-end : 6 ;
-	grid-column-end : 2;
-}
-#a3{
-	grid-column-start : 2 ;
-	grid-column-end : 3;
+	grid-row : 2 / span 4;
 }
 #a4{
-	grid-column-start : 3 ;
-	grid-column-end : 5;
+	grid-column : 3 / span 2 ;
 }
 #a5{
-	grid-column-start : 2 ;
-	grid-column-end : 4;
+	grid-column : 2 / span 2;
 }
 #a10{
-	grid-column-start : 2;
-	grid-column-end : 5;
+	grid-column : 2 / span 3 ;
 }
