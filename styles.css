@@ -2,7 +2,7 @@
 
 #grid{
 	display : grid;
-	grid-template-columns : repeat(4,190px);
+	grid-template-columns : repeat(4,242.5px);
 	grid-template-rows : repeat(5,124px);
 	padding : 10px  ;
 	gap : 5px;
@@ -14,7 +14,7 @@
 	font-size : 30px;
 }
 #a1{
-	grid-column : 1 / span 4;
+	grid-column : span 4 / auto ;
 	grid-column-end : 5;
 }
 #a2 {
